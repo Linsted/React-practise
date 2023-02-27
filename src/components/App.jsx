@@ -13,7 +13,7 @@ export  class App extends React.Component{
     console.log("console.log in handleModal")
     this.setState((prevState) => {
       return {
-        openModal: !this.state.openModal
+        openModal: !prevState.openModal
       }
     })
  } 
