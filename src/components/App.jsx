@@ -24,6 +24,8 @@ export  class App extends React.Component{
       <button type="button" onClick={this.handleModal}>Open modal</button>
          {this.state.openModal && <ModalWindow onClose={this.handleModal} />}
     
+         
+         
     </>
     );
   }
